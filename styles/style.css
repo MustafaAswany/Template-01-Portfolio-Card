@@ -1,0 +1,119 @@
+/* Universal Rule */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: #eeee;
+}
+
+nav {
+    width: 1500px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    color: #fa9806;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #fa9806;
+    font-weight: 700;
+}
+
+.nav-header-list {
+    font-weight: 700;
+    color: #fa9806;
+}
+
+.container {
+    width: 1500px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.container h4 {
+    padding-top: 100px;
+    color: #fa9806;
+}
+
+.container h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.container span {
+    font-weight: 600;
+}
+
+.container p {
+    line-height: 30px;
+    padding-top: 20px;
+    font-size: 18px;
+
+}
+
+.content {
+    width: 50%;
+}
+
+.btn1 {
+    width: 120px;
+    height: 50px;
+    border: none;
+    background: #fa9806;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.btn2 {
+    width: 120px;
+    height: 50px;
+    border: 1px solid #000;
+    background: transparent;
+    color: #fa9806;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.btn2:hover {
+    background: #fa9806;
+    color: #fff;
+    border: none;
+}
+
+.image img {
+    width: 550px;
+    margin-left: 150px;
+}
